@@ -6,7 +6,7 @@
 
  [rewrite_local]
 
- ^http[s]?:\/\/iosviet.co\/check-lic url script-response-body 8bp-hack-iosviet.js
+ ^http[s]?:\/\/iosviet.co\/check-lic\/.* url script-response-body 8bp-hack-iosviet.js
 
  [mitm]
 
